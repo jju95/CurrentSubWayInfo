@@ -1,0 +1,17 @@
+spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: false
+  thymeleaf:
+      prefix: classpath:/templates/views/
+      suffix: .html
+
+my:
+  api:
+    url: http://swopenAPI.seoul.go.kr/api/{api}
+    "data-type": json
+    name: "api name"
+    key:
+      dev: "your key"
